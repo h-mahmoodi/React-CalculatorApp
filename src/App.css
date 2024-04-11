@@ -1,0 +1,177 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background-color: #0f172a;
+  width: 40rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.monitor {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+.monitor-calc {
+  min-height: 20px;
+}
+.monitor-result {
+  color: #f59e0b;
+  /* font-weight: 600; */
+  font-size: 4rem;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.button {
+  background-color: #334155;
+  color: #f5f5f5;
+  padding: 1rem;
+  border: 0;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  font-size: 2.6rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: #475569;
+}
+.button:active {
+  background-color: #1e293b;
+  font-size: 2.2rem;
+}
+
+.button-action {
+  color: #60a5fa;
+  font-size: 3rem;
+}
+
+.button-back {
+  color: #ef4444;
+  grid-row: 1;
+  grid-column: 1;
+}
+.button-clear {
+  color: #ef4444;
+  grid-row: 1;
+  grid-column: 2;
+}
+.button-parantes-left {
+  grid-row: 1;
+  grid-column: 3;
+}
+.button-parantes-right {
+  grid-row: 1;
+  grid-column: 4;
+}
+.button-reverce {
+  grid-row: 2;
+  grid-column: 1;
+}
+.button-pow {
+  grid-row: 2;
+  grid-column: 2;
+}
+.button-percent {
+  grid-row: 2;
+  grid-column: 3;
+}
+.button-devide {
+  grid-row: 2;
+  grid-column: 4;
+}
+.button-times {
+  grid-row: 3;
+  grid-column: 4;
+}
+.button-7 {
+  grid-row: 3;
+  grid-column: 1;
+}
+.button-8 {
+  grid-row: 3;
+  grid-column: 2;
+}
+.button-9 {
+  grid-row: 3;
+  grid-column: 3;
+}
+.button-mines {
+  grid-row: 4;
+  grid-column: 4;
+}
+.button-4 {
+  grid-row: 4;
+  grid-column: 1;
+}
+.button-5 {
+  grid-row: 4;
+  grid-column: 2;
+}
+.button-6 {
+  grid-row: 4;
+  grid-column: 3;
+}
+.button-plus {
+  grid-row: 5;
+  grid-column: 4;
+}
+.button-1 {
+  grid-row: 5;
+  grid-column: 1;
+}
+.button-2 {
+  grid-row: 5;
+  grid-column: 2;
+}
+.button-3 {
+  grid-row: 5;
+  grid-column: 3;
+}
+
+.button-equal {
+  background-color: #f59e0b;
+  color: #0f172a;
+  grid-row: 6;
+  grid-column: 4;
+}
+.button-equal:hover {
+  background-color: #fbbf24;
+}
+.button-equal:active {
+  background-color: #d97706;
+}
+
+.button-dot {
+  grid-row: 6;
+  grid-column: 3;
+}
+.button-00 {
+  grid-row: 6;
+  grid-column: 1;
+}
+.button-0 {
+  grid-row: 6;
+  grid-column: 2;
+}
